@@ -1,0 +1,14 @@
+# No subir la web generada
+site/
+
+# No subir el caché de Python
+__pycache__/
+*.pyc
+
+# Opcional: Si las imágenes pesan demasiado y no quieres subirlas todas
+# docs/img/ 
+
+# Archivos de entorno virtual
+venv/
+env/
+.env

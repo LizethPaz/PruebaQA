@@ -1,0 +1,16 @@
+/* Oculta el ícono automático de MkDocs Material solo para los cuadros
+   "Video Tutorial", ya que ese título ya incluye su propio emoji (▶️)
+   tomado directamente del JSON de Confluence. El resto de admonitions
+   (info, warning, success, etc.) conservan su ícono normal. */
+.md-typeset .admonition.video-tutorial > .admonition-title::before,
+.md-typeset details.video-tutorial > summary::before {
+    display: none;
+}
+
+.md-typeset .admonition.video-tutorial > .admonition-title,
+.md-typeset details.video-tutorial > summary {
+    padding-left: 0.6rem;
+}
+
+
+

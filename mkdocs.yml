@@ -1,0 +1,28 @@
+site_name: Prueba QA Grafosoft
+theme:
+  name: material
+  palette:
+    primary: indigo
+    accent: blue
+
+extra_css:
+  - stylesheets/extra.css
+
+markdown_extensions:
+  - attr_list
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.magiclink
+  - attr_list
+  - pymdownx.emoji
+  - md_in_html
+
+nav:
+  - Inicio: index.md
+  - Profesionales: Profesionales.md
+  - Pacientes: Pacientes.md
+  - Mi catálogo: Catalogo.md
+  - Visor RDA: Visor_RDA.md
+  - Historias: Historias.md
+  - Crear RDA Paciente: Crear_RDA_Paciente.md
