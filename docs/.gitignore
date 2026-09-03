@@ -6,7 +6,7 @@ __pycache__/
 *.pyc
 
 # Opcional: Si las imágenes pesan demasiado y no quieres subirlas todas
-# docs/img/ 
+docs/img/ 
 
 # Archivos de entorno virtual
 venv/
